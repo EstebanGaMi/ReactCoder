@@ -1,0 +1,55 @@
+export let products = [
+  {
+    id: 1,
+    title: "MateSTL1",
+    subtitle: "Nordic mate STL for PLA,PETG, ABS ",
+    price: 5,
+    stock: 50,
+    description:
+      "Due to popular demand we are sharing our Mate! It is necessary to use PETG since it has excellent layer adhesion and it is food safe.  Some people were having trouble to print it, so I uploaded a Fixed version! Print Settings Printer:F3D ONE Rafts: No Supports: No Resolution: 0.2 Infill: 50% Notes: You must use at least 4 perimeters for it to hold water. It is necessary to use PETG since its food safe and it can handle the water temperature. ",
+    category: "stl",
+    img: "/products/mate1.png",
+  },
+  {
+    id: 2,
+    title: "MateSTL2",
+    subtitle: "STL of mate sheets for PLA,PETG, ABS",
+    price: 5,
+    stock: 50,
+    description:
+      " Due to popular demand we are sharing our Mate! It is necessary to use PETG since it has excellent layer adhesion and it is food safe.  Some people were having trouble to print it, so I uploaded a Fixed version! Print Settings Printer:F3D ONE Rafts: No Supports: No Resolution: 0.2 Infill: 50% Notes: You must use at least 4 perimeters for it to hold water. It is necessary to use PETG since its food safe and it can handle the water temperature. ",
+    category: "stl",
+    img: "/products/mate2.png",
+  },
+  {
+    id: 3,
+    title: "MateSTL3",
+    subtitle: "STL of mate plants for PLA,PETG, ABS ",
+    price: 5,
+    stock: 50,
+    description:
+      "Due to popular demand we are sharing our Mate! It is necessary to use PETG since it has excellent layer adhesion and it is food safe.  Some people were having trouble to print it, so I uploaded a Fixed version! Print Settings Printer:F3D ONE Rafts: No Supports: No Resolution: 0.2 Infill: 50% Notes: You must use at least 4 perimeters for it to hold water. It is necessary to use PETG since its food safe and it can handle the water temperature. ",
+    category: "stl",
+    img: "/products/mate3.png",
+  },
+  {
+    id: 4,
+    title: "Repair Service computer",
+    subtitle: "PC repair and maintenance service quote.",
+    price: 30,
+    stock: 10,
+    description: "PC repair and maintenance service quote.",
+    category: "services",
+    img: "/products/reparacion.jpg",
+  },
+  {
+    id: 5,
+    title: "Montaje computer",
+    subtitle: "PC and component assembly service quote.",
+    price: 20,
+    stock: 10,
+    description: "PC and component assembly service quote.",
+    category: "services",
+    img: "/products/montaje.jpg",
+  },
+];
