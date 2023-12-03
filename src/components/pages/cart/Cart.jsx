@@ -1,6 +1,5 @@
-import React from "react";
 import { Button, IconButton } from "@mui/material";
-import { useContext } from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { CartContext } from "../../../context/CartContext";
 import Swal from "sweetalert2";
@@ -40,7 +39,7 @@ const Cart = () => {
   return (
     <div>
       {cart.map((product) => (
-        <div key={product.id} style={{ border: "2px solid black" }}>
+        <div key={product.id}>
           <section className="flex justify-center items-center m-auto my-[15%] text-center">
             <Card sx={{ maxWidth: 345 }}>
               <h2 className=" text-purple-800 font-bold text-xl">
