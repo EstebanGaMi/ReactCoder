@@ -3,7 +3,8 @@ import Checkout from "../components/pages/checkout/Checkout";
 import CheckoutFormik from "../components/pages/checkoutFormik/CheckoutFormik";
 import CheckoutOficial from "../components/pages/checkoutOficial/CheckoutOficial";
 import ItemDetailContainer from "../components/pages/itemDetailContainer/ItemDetailContainer";
-import ItemListContainer from "../components/pages/itemListContainer/ItemListContainer";
+import ItemListContainer from "@components/pages/itemListContainer/ItemListContainer";
+
 import { Home } from "../components/pages/home/page";
 
 export const routes = [

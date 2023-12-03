@@ -1,3 +1,4 @@
+import React from "react";
 import { useContext, useState, useEffect } from "react";
 import { CartContext } from "../../../context/CartContext";
 import { serverTimestamp } from "firebase/firestore";
