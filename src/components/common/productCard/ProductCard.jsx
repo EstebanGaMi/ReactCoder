@@ -8,9 +8,12 @@ import {
 } from "@mui/material";
 import { Link } from "react-router-dom";
 
-export const ProductCard = ({ item }) => {
+const ProductCard = ({ item }) => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card
+      className=" items-center justify-center text-center"
+      sx={{ maxWidth: 345 }}
+    >
       <CardMedia
         sx={{ height: 140 }}
         image={item.img}
@@ -37,3 +40,4 @@ export const ProductCard = ({ item }) => {
     </Card>
   );
 };
+export default ProductCard;

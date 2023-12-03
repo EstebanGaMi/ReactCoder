@@ -1,11 +1,11 @@
 import React from "react";
-import { ItemListContainer } from "../itemListContainer/itemListContainer";
+import ItemListContainer from "../itemListContainer/ItemListContainer";
 import SelectorCard from "../../common/selectorCard/SelectorCard";
 
 export const Home = () => {
   return (
-    <section className="flex flex-col justify-center items-center gap-5 mt-[180px]">
-      <SelectorCard />
+    <section>
+      {/* <SelectorCard /> */}
       <ItemListContainer />
     </section>
   );

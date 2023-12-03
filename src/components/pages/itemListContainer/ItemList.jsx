@@ -1,8 +1,8 @@
-import { ProductCard } from "../../common/productCard/ProductCard";
+import ProductCard from "../../common/productCard/ProductCard";
 
 import React from "react";
 
-export const ItemList = ({ items }) => {
+const ItemList = ({ items }) => {
   return (
     <section className="flex flex-wrap gap-5 justify-center mx-[40px]">
       {items.map((item) => {
@@ -11,3 +11,4 @@ export const ItemList = ({ items }) => {
     </section>
   );
 };
+export default ItemList;

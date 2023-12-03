@@ -5,20 +5,26 @@ import { customTheme } from "../../../../themeConfig";
 
 export const CounterPresentation = ({ decrement, increment, count, onAdd }) => {
   return (
-    <div>
-      <button className="bg-gray-500 rounded-xl p-2 m-2" onClick={increment}>
-        sumar
+    <div className="flex justify-center items-center text-center">
+      <button
+        className="bg-gray-500 rounded-lg px-[10px] py-0"
+        onClick={increment}
+      >
+        +
       </button>
-      <h4>{count}</h4>
-      <button className="bg-gray-500 rounded-xl p-2 m-2" onClick={decrement}>
-        restar
+      <h4 className="p-3">{count}</h4>
+      <button
+        className="bg-gray-500 rounded-lg px-[10px] py-0"
+        onClick={decrement}
+      >
+        -
       </button>
       <ThemeProvider theme={customTheme}>
         <Button
           onClick={() => onAdd(count)}
           variant="contained"
           color="secondary"
-          sx={{ ml: 2 }}
+          sx={{ ml: 1 }}
         >
           Add Cart
         </Button>

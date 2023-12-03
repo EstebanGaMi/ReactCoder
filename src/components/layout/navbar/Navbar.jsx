@@ -1,13 +1,7 @@
 import React from "react";
-import {
-  RiHome6Line,
-  RiRefund2Fill,
-  RiGameLine,
-  RiMailLine,
-  RiLogoutBoxLine,
-} from "react-icons/ri";
+import { RiHome6Line, RiMailLine, RiLogoutBoxLine } from "react-icons/ri";
 import { AiOutlineBell } from "react-icons/ai";
-import { CarWidget } from "../../common/cartWidget/CarWidget";
+import CarWidget from "../../common/cartWidget/CarWidget";
 import logo from "../../../assets/img/logo.svg";
 import { Outlet, Link } from "react-router-dom";
 
@@ -35,14 +29,6 @@ export const NavBar = () => {
               </Link>
             </li>
 
-            {/* <li className="hover:bg-[#282836] hover:bg-opacity-60 p-4 rounded-tl-xl rounded-bl-xl group transition-colors">
-              <Link
-                className="group-hover:bg-purple-500 p-4 flex justify-center rounded-xl text-purple-600 group-hover:text-white transition-colors"
-                href="#"
-              >
-                <RiGameLine className="text-2xl" />
-              </Link>
-            </li> */}
             <li className="hover:bg-[#282836] hover:bg-opacity-60 p-4 rounded-tl-xl rounded-bl-xl group transition-colors">
               <Link
                 className="group-hover:bg-purple-500 p-4 flex justify-center rounded-xl text-purple-600 group-hover:text-white transition-colors"
@@ -60,13 +46,7 @@ export const NavBar = () => {
               </Link>
             </li>
             <li className="hover:bg-[#282836] hover:bg-opacity-60 p-4 rounded-tl-xl rounded-bl-xl group transition-colors">
-              <Link
-                to="/cart"
-                className="group-hover:bg-purple-500 p-4 flex justify-center rounded-xl text-purple-600 group-hover:text-white transition-colors"
-                href="#"
-              >
-                <CarWidget className="text-2xl" />
-              </Link>
+              <CarWidget className="text-2xl" />
             </li>
           </ul>
         </div>

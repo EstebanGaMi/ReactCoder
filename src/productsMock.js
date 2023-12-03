@@ -2,11 +2,11 @@ export let products = [
   {
     id: 1,
     title: "MateSTL1",
-    subtitle: "Nordic mate STL for PLA,PETG, ABS ",
+    subtitle: "Nordic mate STL for PLA,PETG, ABS",
     price: 5,
     stock: 50,
     description:
-      "Due to popular demand we are sharing our Mate! It is necessary to use PETG since it has excellent layer adhesion and it is food safe.  Some people were having trouble to print it, so I uploaded a Fixed version! Print Settings Printer:F3D ONE Rafts: No Supports: No Resolution: 0.2 Infill: 50% Notes: You must use at least 4 perimeters for it to hold water. It is necessary to use PETG since its food safe and it can handle the water temperature. ",
+      "Due to popular demand we are sharing our Mate! It is necessary to use PETG since it has excellent layer adhesion and it is food safe.  Some people were having trouble to print it, so I uploaded a Fixed version! Print Settings Printer:F3D ONE Rafts: No Supports: No Resolution: 0.2 Infill: 50% Notes: You must use at least 4 perimeters for it to hold water. It is necessary to use PETG since its food safe and it can handle the water temperature.",
     category: "stl",
     img: "/products/mate1.png",
   },
@@ -17,18 +17,18 @@ export let products = [
     price: 5,
     stock: 50,
     description:
-      " Due to popular demand we are sharing our Mate! It is necessary to use PETG since it has excellent layer adhesion and it is food safe.  Some people were having trouble to print it, so I uploaded a Fixed version! Print Settings Printer:F3D ONE Rafts: No Supports: No Resolution: 0.2 Infill: 50% Notes: You must use at least 4 perimeters for it to hold water. It is necessary to use PETG since its food safe and it can handle the water temperature. ",
+      " Due to popular demand we are sharing our Mate! It is necessary to use PETG since it has excellent layer adhesion and it is food safe.  Some people were having trouble to print it, so I uploaded a Fixed version! Print Settings Printer:F3D ONE Rafts: No Supports: No Resolution: 0.2 Infill: 50% Notes: You must use at least 4 perimeters for it to hold water. It is necessary to use PETG since its food safe and it can handle the water temperature.",
     category: "stl",
     img: "/products/mate2.png",
   },
   {
     id: 3,
     title: "MateSTL3",
-    subtitle: "STL of mate plants for PLA,PETG, ABS ",
+    subtitle: "STL of mate plants for PLA,PETG, ABS",
     price: 5,
     stock: 50,
     description:
-      "Due to popular demand we are sharing our Mate! It is necessary to use PETG since it has excellent layer adhesion and it is food safe.  Some people were having trouble to print it, so I uploaded a Fixed version! Print Settings Printer:F3D ONE Rafts: No Supports: No Resolution: 0.2 Infill: 50% Notes: You must use at least 4 perimeters for it to hold water. It is necessary to use PETG since its food safe and it can handle the water temperature. ",
+      "Due to popular demand we are sharing our Mate! It is necessary to use PETG since it has excellent layer adhesion and it is food safe.  Some people were having trouble to print it, so I uploaded a Fixed version! Print Settings Printer:F3D ONE Rafts: No Supports: No Resolution: 0.2 Infill: 50% Notes: You must use at least 4 perimeters for it to hold water. It is necessary to use PETG since its food safe and it can handle the water temperature.",
     category: "stl",
     img: "/products/mate3.png",
   },

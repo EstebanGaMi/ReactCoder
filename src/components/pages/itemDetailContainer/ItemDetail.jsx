@@ -1,3 +1,52 @@
+// import { Link } from "react-router-dom";
+// import CounterContainer from "../../common/counter/CounterContainer";
+
+// export const ItemDetail = ({
+//   productSelected,
+//   onAdd,
+//   initial,
+//   showCounter,
+// }) => {
+//   return (
+//     <div>
+//       <div className={"containerItemDetail"}>
+//         <div className={"containerImage"}>
+//           <img src={productSelected.img} alt="" />
+//         </div>
+
+//         <div className={"containerDetail"}>
+//           <h2 style={{ fontFamily: "monospace" }}>
+//             <span style={{ fontSize: "23px" }}>Nombre:</span>{" "}
+//             {productSelected.title}
+//           </h2>
+//           <h2 style={{ fontFamily: "monospace" }}>
+//             <span style={{ fontSize: "23px" }}>Descripcion:</span>{" "}
+//             {productSelected.description}
+//           </h2>
+//           <h2 style={{ fontFamily: "monospace" }}>
+//             <span style={{ fontSize: "23px" }}>Precio:</span> $
+//             {productSelected.price}.-
+//           </h2>
+//         </div>
+//       </div>
+
+//       {initial && <h4>Ya tienes {initial} unidades</h4>}
+
+//       {showCounter ? (
+//         <div style={{ display: "flex", justifyContent: "center" }}>
+//           <CounterContainer
+//             stock={productSelected.stock}
+//             onAdd={onAdd}
+//             initial={initial}
+//           />
+//         </div>
+//       ) : (
+//         <Link to="/cart">Terminar compra</Link>
+//       )}
+//     </div>
+//   );
+// };
+
 import * as React from "react";
 import { styled } from "@mui/material/styles";
 import Card from "@mui/material/Card";
@@ -36,7 +85,7 @@ export default function ItemDetail({ productSelected, onAdd }) {
   };
 
   return (
-    <section className="flex w-3/4 justify-center m-auto mt-[180px]">
+    <section className="flex w-3/4 justify-center m-auto mt-[180px] text-center">
       <CardMedia
         component="img"
         height="194"
@@ -65,12 +114,6 @@ export default function ItemDetail({ productSelected, onAdd }) {
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
-          <IconButton aria-label="add to favorites">
-            <FavoriteIcon />
-          </IconButton>
-          <IconButton aria-label="share">
-            <ShareIcon />
-          </IconButton>
           <CardActions>
             <CounterContainer stock={productSelected.stock} onAdd={onAdd} />
           </CardActions>
