@@ -5,13 +5,11 @@ import CheckoutOficial from "../components/pages/checkoutOficial/CheckoutOficial
 import ItemDetailContainer from "../components/pages/itemDetailContainer/ItemDetailContainer";
 import ItemListContainer from "@components/pages/itemListContainer/ItemListContainer";
 
-import { Home } from "../components/pages/home/page";
-
 export const routes = [
   {
     id: "home",
     path: "/",
-    Element: Home,
+    Element: ItemDetailContainer,
   },
   {
     id: "category",
